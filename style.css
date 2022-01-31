@@ -1,0 +1,187 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: "Roboto Mono";
+    background-color: #116466;
+}
+
+.header {
+    display: flex;
+    padding: 8px;
+    background-color: #1c3334;
+    color: #FFCB9A;
+}
+.header-links {
+    display: flex;
+    margin-left: auto;
+}
+
+.logo {
+    font-size: 24px;
+    margin-top: 8px;
+    margin-left: 32px;
+}
+.header ul {
+    list-style-type: none;
+    gap: 32px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #FFCB9A;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    padding-bottom: 16px;
+    gap: 64px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #E98074;
+    color: #F9FAF8;
+    padding: 32px 8px;
+}
+
+.welcome {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    font-size: 18px;
+}
+
+.book-button {
+    align-self: flex-start;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.card-title{
+    padding-bottom: 24px;
+    font-size: 28px;
+}
+
+.hotel-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    background-color: #D1E8E2;
+    font-style: italic;
+    padding: 16px 0px;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 18;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 16px;
+}
+
+
+.people {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.booking {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F49E4C;
+    padding: 8px 32px;
+    width: fit-content;
+    align-self: center;
+    border-radius: 16px;
+    color: white;
+    gap: 16px;
+    margin: 16px 0px;
+    font-size: 18px;
+}
+
+.book-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.book-text h3 {
+    margin: 0px;
+}
+.booking .book-button {
+    align-self: center;
+    background-color: #F49E4C;
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.booking .book-button:hover {
+    background-color: #f7b77b;
+}
+
+.footer {
+    display: flex;
+    padding: 4px;
+    text-align: center;
+    margin-top: auto;
+    justify-content: center;
+    background-color: #1c3334;
+    color: #FFCB9A;
+}
+
+
+
+
+.milkyway {
+    height: 250px;
+    width: 500px;
+}
+
+.hotel-img {
+    width: 250px;
+    height: 150px;
+    border-radius: 25px;
+}
